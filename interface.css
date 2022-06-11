@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Dosis', sans-serif;
+}
+
+.myForm{ 
+	font-family: monospace;
+	background-color:#fff3b0;
+	letter-spacing: 3px;
+	color:black;
+}
+
+input{
+	background-color: black;
+	color: white;
+}
+
+.div3{
+    letter-spacing: 4px;
+	text-align: center;
+	color: black;
+	font-family: arial;
+	font-style: normal;
+	font-size: 20px;
+  background-color: #fff3b0;
+}
+
+.divf{
+	background-color: #fff3b0;
+	color: black;
+	font-family:monospace ;
+	text-align: center;
+    font-size: 30px;
+}
+
+.div2{
+	background: #fff3b0;
+
+}
+
+.c1{
+
+	width: 80%;
+	margin: auto;
+}
+
+.navbar{
+	margin: 30px auto;
+	display: flex;
+	align-items: center;
+}
+
+ul{
+	flex: 1;
+	text-align: center;
+}
+
+ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 0 25px;
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 0 10px;
+	position: relative;
+}
+
+ul li a::after{
+	content: '';
+	width: 0;
+	height: 10px;
+	background: #fff3b0;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: -55px;
+	transition: 0.5s;
+}
+
+ul li a:hover::after{
+	width: 100%;
+
+}
+
+.a1{
+	text-decoration: none;
+	color: white;
+}
+
+.div3{
+	background-color: #fff3b0;
+}
+
+.ha{
+	color: black;
+	background-color: #fff3b0;
+	
+    letter-spacing: 4px;
+    font-size: 30px;
+}
+
+.d3{
+	background-color: #fff3b0;
+	color: black;
+	
+    letter-spacing: 4px;
+    font-size: 20px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #fff3b0;
+  color: black;
+}
+
+.fa-facebook{
+  background: #fff3b0;
+  color: black;
+}
+
+.fa-twitter{
+  background: #fff3b0;
+  color: black;	
+}
